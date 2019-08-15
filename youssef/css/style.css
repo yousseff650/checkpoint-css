@@ -13,10 +13,11 @@ label {
 }
 
 .kikou {
-    font-size: 50px;
-    color: white;
-    text-shadow: 15px;
-    font-family: 'Times New Roman', Times, serif;
+    font-size: 6em;
+    font-family: 'Bree Serif', serif;
+    color: #fff;
+    position: relative;
+    text-shadow: 5px 2px rgb(12, 11, 11);
 }
 
 .image {
@@ -32,7 +33,6 @@ label {
 body {
     Background-image: Linear-gradient(217deg, rgba(255, 0, 0, .8), rgba(255, 0, 0, 0) 70.71%), Linear-gradient(127deg, black, black 70.71%), Linear-gradient(336deg, rgba(0, 0, 255, .8), rgba(0, 0, 255, 0) 70.71%);
     background-repeat: no-repeat;
-    
 }
 
 .cover {
@@ -70,6 +70,10 @@ ul li a {
     color: white;
     font-size: 20px;
     margin-bottom: 30px;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
 }
 
 ul li {
@@ -99,30 +103,63 @@ ul li a:hover {
     margin-bottom: 10px;
     font-size: 36px;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    
 }
-.photo{   
-    justify-content: space-around; 
+
+.photo {
+    justify-content: space-evenly;
     display: flex;
 }
-.view{
-    color:blue;
+
+.view {
+    color: blue;
     font-size: 28px;
     margin-top: 10px;
     margin-bottom: 10px;
     font-weight: 500;
     text-decoration: none;
-
 }
-.view:hover{
-    color:  #337ab7;
+
+.view:hover {
+    color: #337ab7;
     text-decoration: underline;
     font-weight: 500;
 }
-.more{
+
+.more {
     color: white;
     font-size: 36px;
 }
-.ahri{
-    padding: 40px;
+
+.ahri {
+    padding: 10px;
+    width: 250px;
+    height: 250px;
+    margin-left: 50px;
+}
+
+.ahbet {
+    padding-top: 75px;
+}
+
+#weigth {
+    color: white;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 40px
+}
+
+.hi {
+    display: inline-flex;
+    padding-bottom: 20px;
+    font-size: x-large;
+    font-family: initial;
+}
+
+.text {
+    height: 80px;
+    width: 40%;
+    border-radius: 10px;
+    padding-bottom: 16px;
+    padding-top: 25px;
+    margin-bottom: 20px;
+   
 }
